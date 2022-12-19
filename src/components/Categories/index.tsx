@@ -1,13 +1,13 @@
 import Category, { type CategoryProps } from "./Category";
-import salad from "../../../public/salad.png";
-import pho from "../../../public/pho.png";
-import comtam from "../../../public/comtam.png";
-import steak from "../../../public/steak.png";
+import salad from "../../../public/salad.webp";
+import pho from "../../../public/pho.webp";
+import comtam from "../../../public/comtam.webp";
+import steak from "../../../public/steak.webp";
 
 const Categories: React.FC = () => {
   const categories: CategoryProps[] = [
     {
-      name: "Phở",
+      name: "Pho",
       thumbnail: pho,
     },
     {
@@ -15,7 +15,7 @@ const Categories: React.FC = () => {
       thumbnail: salad,
     },
     {
-      name: "Cơm tấm",
+      name: "Broken Rice",
       thumbnail: comtam,
     },
     {

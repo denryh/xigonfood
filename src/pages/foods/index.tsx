@@ -14,8 +14,8 @@ const Foods: NextPage = () => {
         <span>xigonfood</span>
       </nav>
       <main>
-        <h1 className="my-8 mx-auto w-3/4 text-center text-2xl leading-6">
-          Chọn món mà bạn muốn ăn
+        <h1 className="my-8 mx-auto w-3/4 py-4 text-center text-2xl leading-6">
+          Pick something
         </h1>
         <Categories />
       </main>

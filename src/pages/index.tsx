@@ -18,18 +18,19 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-orange-200">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-white">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="font-display text-5xl text-orange-800 sm:text-[5rem]">
-            Xigonfood
+            xigonfood
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link
-              className="flex max-w-xs flex-col gap-4 rounded-xl bg-black/40 p-4 text-white hover:bg-white/20"
+              className="flex max-w-xs flex-col gap-4 rounded-xl bg-orange-200 p-4 text-orange-800 hover:bg-white/20"
               href="/foods"
             >
               <h3 className="text-2xl font-bold">Food List →</h3>
-              Browse through a list of every available foods here in Xi Gon
+              Browse through a list of every available foods here in Xi Gon (Sai
+              Gon)
               <div className="text-lg"></div>
             </Link>
           </div>
@@ -62,7 +63,7 @@ const AuthShowcase: React.FC = () => {
         {secretMessage && <span> - {secretMessage}</span>}
       </p>
       <button
-        className="rounded-full bg-black/40 px-10 py-3 font-semibold text-white no-underline transition hover:bg-white/20"
+        className="rounded-full bg-orange-200 p-4 px-10 py-3 font-semibold text-orange-800 no-underline transition hover:bg-white/20"
         onClick={sessionData ? () => signOut() : () => signIn()}
       >
         {sessionData ? "Sign out" : "Sign in"}
