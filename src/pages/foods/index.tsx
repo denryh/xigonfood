@@ -13,9 +13,12 @@ const Foods: NextPage = () => {
       </Head>
       <NavBar />
       <main>
-        <h1 className="my-8 mx-auto w-3/4 py-4 text-center text-2xl leading-6">
-          Pick something
-        </h1>
+        <p className="my-8 mx-auto p-2 text-center text-2xl leading-10">
+          We have good places <br />
+          for any kind of foods at every corner <br />
+          in little{" "}
+          <span className="font-display text-xl text-orange-800">Xi Gon</span>
+        </p>
         <Categories />
       </main>
     </>
